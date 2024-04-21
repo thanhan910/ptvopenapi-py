@@ -16,6 +16,9 @@
 
 __version__ = "1.0.0"
 
+# import functions that help with generating URLs
+from openapi_client.urls import generate_signature, get_ptv_api_url
+
 # import apis into sdk package
 from openapi_client.api.departures_api import DeparturesApi
 from openapi_client.api.directions_api import DirectionsApi
